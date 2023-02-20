@@ -1,0 +1,9 @@
+
+if isfolder("GodWare") == false then
+	makefolder("GodWare")
+end
+downloadassets("GodWare")
+if isfolder("GodWare/assets") == false then
+	makefolder("GodWare/assets")
+end
+downloadassets("GodWare/assets")
