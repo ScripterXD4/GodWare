@@ -1,0 +1,9 @@
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Who Created GodWare?";
+    Text = "local Samuel = true#6127"; 
+    Duration = 20;
+})
+
+wait(0.1)
+
+game.StarterGui:SetCore("ChatMakeSystemMessage",  { Text = "GodWare Loaded!", Color = Color3.fromRGB(255, 255, 255), Font = Enum.Font.SciFi, FontSize = Enum.FontSize.Size24 } )
